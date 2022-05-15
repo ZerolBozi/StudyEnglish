@@ -13,8 +13,8 @@ import random
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('xHdf4P5pxNhjeXdzB0xYHp9FGn9vewA4msybL+FB0v6ddHTVgENTQfWQebDXf26lyXRceqZlBOsBzp8EtUDkT0dq4x+GRF7K6TTegunMopVsQChzRTVAuFP/w2atrBIP5Vnpm92Cy+cUQEEj7g4GvwdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('37af7ee23a4dacd3653df2f51bff7b7c')
+line_bot_api = LineBotApi('Channel access token')
+handler = WebhookHandler('Channel secret')
 
 users = dict()
 base_addr = "https://esl-kids.com/img/worksheets/"
