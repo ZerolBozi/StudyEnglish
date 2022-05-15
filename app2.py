@@ -26,7 +26,7 @@ users [user_id] = {
     'count': 0,
 }
 
-:key game: 遊戲模式 (-1: 尚未開始遊戲, 0: 填充題, 1: 選擇題)
+:key game: 遊戲模式 (-1: 尚未開始遊戲, 0: 填充題, 1: 選擇題, 2: 是非題)
 :type game: int
 :key progress: 遊戲進度 (初始值為所有主題，完成主題後移除該主題)
 :type progress: list
